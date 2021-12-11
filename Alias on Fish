@@ -1,0 +1,11 @@
+I Use as a terminal shell Fish , and obviously the command alias . I will address some of my "shortcuts" for me as a referance (when i will need them in later date)
+and anyone who may like to use them.
+
+in debian-based distros the command i use is: sudo apt update && apt upgrade && apt full-upgrade
+
+this on update repositories , current version apps and check for an distro updates
+
+i have made the:
+alias -s upg='sudo apt update && apt upgrade && apt full-upgrade'
+
+the -s is to save this alias in the Fish configuration file so you don't have to do it manually (and store it in: ~/.config/fish/functions/ under the name you gave)
